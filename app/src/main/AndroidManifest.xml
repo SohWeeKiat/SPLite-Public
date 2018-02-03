@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mapp.com.sg.splite">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splitelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" android:theme="@style/TransparentActionBar2" />
+        <activity android:name=".MainMenu"
+            android:theme="@style/TransparentActionBar" />
+        <activity android:name=".AttendanceUI.AttendanceTakingActivity"
+            android:label="Attendence Taking"/>
+        <activity android:name=".AttendanceUI.ATSResultActivity"
+            android:label="Attendence Taking"/>
+
+        <activity android:name=".LibraryUI.LibraryBookingActivity"
+            android:label="Library Booking"/>
+        <activity android:name=".LibraryUI.LibraryBooking4_1"
+            android:label="Library Booking"/>
+        <activity android:name=".LibraryUI.LibraryBooking4_2"
+            android:label="Library Booking"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".LibraryUI.LibraryBooking4_3"/>
+
+        <activity android:name=".CrowdWatchUI.CrowdWatchActivity"
+            android:label="Crowd Watch"/>
+        <activity android:name=".CrowdWatchUI.CrowdWatch5_1Activity" />
+
+        <activity android:name=".CCAViewerUI.cca_chart"
+            android:label="CCA Points"/>
+        <activity
+            android:name=".CCAViewerUI.ExpandableListActivity"
+            android:label="Participation"
+            android:hardwareAccelerated="true" />
+
+        <activity android:name=".AboutActivity"
+            android:label="About"/>
+    </application>
+
+</manifest>

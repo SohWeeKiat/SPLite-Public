@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/LB4.1_list_item_string"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="8dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

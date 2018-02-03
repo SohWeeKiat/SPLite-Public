@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mapp.com.sg.splite.CrowdWatchUI.CrowdWatch5_1Activity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/CW5.1_Viewpager"
+        android:layout_width="368dp"
+        android:layout_height="250dp"
+        android:overScrollMode="never"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_below="@+id/CW5.1_Viewpager"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/circleView"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_below="@id/SliderDots"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        app:cpv_autoTextSize="true"
+        app:cpv_autoTextColor="true"
+        app:cpv_seekMode="true"
+        app:cpv_barWidth="35dp"
+        app:cpv_maxValue="100"
+        app:cpv_rimColor="@color/FCprogressviewrimlightgray"
+        app:cpv_blockCount="15"
+        app:cpv_blockScale="0.9"
+        app:cpv_fillColor="@color/FCprogressviewfilldarkgray"
+        app:cpv_rimWidth="35dp"
+        app:cpv_showUnit="true"
+        app:cpv_textScale="1"
+        app:cpv_unit="%"
+        app:cpv_unitPosition="right_top"
+        app:cpv_unitScale="1"
+        app:cpv_value="10" />
+</RelativeLayout>

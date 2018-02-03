@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mapp.com.sg.splite.MainMenu"
+    android:background="@drawable/download">
+
+    <Button
+        android:id="@+id/bAttendence"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20dp"
+        android:text="ATTENDANCE\nTAKING"
+        android:layout_below="@+id/mainmenu_title_text"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/mainmenu_atsicon"
+        android:paddingLeft="30dp"
+        android:background="#73cfdb67"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/bLibray"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/bAttendence"
+        android:layout_marginTop="10dp"
+        android:background="#73e09a31"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/mainmenu_libraryicon"
+        android:paddingLeft="30dp"
+        android:text="LIBRARY FACILITIES\nBOOKING"
+        android:textColor="@android:color/white"
+        android:onClick="onClick"/>
+<!--
+    <Button
+        android:id="@+id/bCCARecord"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#9958697d"
+        android:layout_below="@+id/bLibray"
+        android:paddingLeft="30dp"
+        android:drawableLeft="@drawable/mainmenu_ccaicon"
+        android:textSize="20dp"
+        android:text="CCA RECORD"
+        android:textColor="@android:color/white"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/bCrowdWatch"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bCCARecord"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#99765862"
+        android:drawableLeft="@drawable/mainmenu_crowdwatchicon"
+        android:paddingLeft="30dp"
+        android:text="CROWD WATCH"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="onClick" /> -->
+
+
+
+        <Button
+            android:id="@+id/bCrowdWatch"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#9958697d"
+            android:layout_below="@+id/bLibray"
+            android:paddingLeft="30dp"
+            android:drawableLeft="@drawable/mainmenu_crowdwatchicon"
+            android:textSize="20dp"
+            android:text="CROWD WATCH"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/bCCARecord"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bCrowdWatch"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#99765862"
+            android:drawableLeft="@drawable/mainmenu_ccaicon"
+            android:paddingLeft="30dp"
+            android:text="CCA RECORD"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:onClick="onClick" />
+</RelativeLayout>

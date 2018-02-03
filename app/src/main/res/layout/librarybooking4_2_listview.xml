@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/LB4_2_list_item_string"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:paddingLeft="8dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/divider4_2"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:id="@+id/divider4_2"
+        android:layout_width="3dp"
+        android:layout_height="70dp"
+        android:background="@drawable/library4_2_seperator"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/LB4_2_list_item_string"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/lSelectedDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignTop="@+id/divider4_2"
+        android:layout_alignStart="@+id/lSelectedRoom" />
+
+    <TextView
+        android:id="@+id/lSelectedRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/divider4_2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lSelectedTimeSlot"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/divider4_2"
+        android:layout_toEndOf="@+id/divider4_2"
+        android:text="TextView" />
+</RelativeLayout>

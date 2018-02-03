@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SPLite</string>
+    <string name="a"></string>
+    <string name="item1">About</string>
+    <string name="item2">Log out</string>
+    <string name="ATS">Attendance Taking</string>
+    <string name="CCA">CCA Record</string>
+    <string name="CrowdWatch">Crowd Watch</string>
+    <string name="LibraryBooking">Library Facilities Booking</string>
+    <string name="cca_point">50</string>
+    <string name="heading">Heading</string>
+    <string name="description">Description</string>
+</resources>

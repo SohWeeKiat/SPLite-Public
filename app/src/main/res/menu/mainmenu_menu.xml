@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:enabled="false"
+        android:background="#000000">
+    <item
+        android:id="@+id/mainmenu_menu_userid"
+        android:background="#73e09a31"
+        android:title="P1626430"
+        android:icon="@drawable/mainmenu_profile"/>
+    </group>
+    <item android:id="@+id/about"
+        android:title="@string/item1"/>
+
+    <item android:id="@+id/logout"
+        android:title="@string/item2" />
+
+
+</menu>

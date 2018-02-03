@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mapp.com.sg.splite.LibraryUI.LibraryBooking4_2"
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:text="Selected Slots"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/LB4_2_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/room"
+        android:divider="@drawable/divider"
+        android:dividerHeight="10.0sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="68dp"
+        android:fadeScrollbars="false"
+
+        ></ListView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/room"
+        android:layout_below="@+id/LB4_2_ListView"
+        android:layout_marginTop="8dp"
+        android:text="Adm. No For All Users" />
+
+    <TextView
+        android:id="@+id/TVUserIcon4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/divider4_2_user"
+        android:layout_toStartOf="@+id/divider4_2_user" />
+
+    <RelativeLayout
+        android:id="@+id/divider4_2_user"
+        android:layout_width="3dp"
+        android:layout_height="140dp"
+        android:background="@drawable/library4_2_seperator"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView9"
+        android:layout_toEndOf="@+id/room"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/bookerAdminIdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:text="P123456"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/divider4_2_user" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bookerAdminIdText"
+        android:layout_below="@+id/bookerAdminIdText"
+        android:layout_gravity="top"
+        android:layout_marginTop="8dp"
+        android:hint="Enter 2nd admin id"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter 3rd admin id"
+        android:layout_gravity="top"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <Button
+        android:id="@+id/LB4_2ConfirmBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:text="CONFIRM BOOKING"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/pBLibrary4_2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TVUserIcon4_2"
+        android:layout_toEndOf="@+id/textView9"
+        android:visibility="invisible" />
+</RelativeLayout>

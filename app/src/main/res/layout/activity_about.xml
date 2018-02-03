@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mapp.com.sg.splite.AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="201dp"
+        android:layout_height="188dp"
+        app:srcCompat="@drawable/logo_transparent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/about_introTV"
+        android:layout_width="327dp"
+        android:layout_height="115dp"
+        android:text="SPLite is a mobile application, specifically designed for SP students based on their major needs. Currently this application is only for those students who are Android users. There are 4 main functions in this application, which are attendance taking, library
+booking, crowd watch and CCA points viewing."
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="238dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/about_ackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acknowledgements:"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="380dp"
+        android:layout_below="@+id/about_introTV"
+        android:layout_alignStart="@+id/about_introTV" />
+
+    <TextView
+        android:id="@+id/about_copyrightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soh Wee Kiat, DIT\nChen Yi, DIT\nSamuel Chua♥, DIT"
+        tools:layout_editor_absoluteY="410dp"
+        android:layout_below="@+id/about_ackTV"
+        android:layout_alignStart="@+id/about_ackTV"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright &#169; Singapore Polytechnic, 2017.\nAll rights reserved"
+        tools:layout_editor_absoluteX="163dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteY="463dp"
+        android:layout_below="@+id/about_copyrightTV"
+        android:layout_marginTop="62dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
