@@ -9,6 +9,10 @@ Key Features:
 3. Crowd Watch
 4. CCA Points Viewer
 
+## Screenshots
+<img src="https://raw.githubusercontent.com/SohWeeKiat/SPLite-Public/master/Screenshots/Screenshot_20180203-140813.png" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/SohWeeKiat/SPLite-Public/master/Screenshots/Screenshot_20180203-160140.png" width=50% height=50%>
+
 ## Contributions
 | Name | Description |
 |------|------|
